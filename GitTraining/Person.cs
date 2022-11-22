@@ -37,11 +37,12 @@ namespace GitTraining
 			Age = age;
 		}
 
-		public void PrintInfo()
+		public virtual void PrintInfo()
 		{
 			Console.WriteLine($"Name: {Name} ");
             Console.WriteLine($"Surname: {Surname} ");
             Console.WriteLine($"Age: {Age} ");
         }
 	}
+
 }
